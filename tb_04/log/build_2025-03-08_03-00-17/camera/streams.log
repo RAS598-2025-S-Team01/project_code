@@ -1,0 +1,41 @@
+[2.748s] Invoking command in '/home/ubuntu/ros2_ws/src/camera': PYTHONPATH=/home/ubuntu/ros2_ws/src/camera/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/camera/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/camera build --build-base /home/ubuntu/ros2_ws/src/camera/build/camera/build install --record /home/ubuntu/ros2_ws/src/camera/build/camera/install.log --single-version-externally-managed install_data
+[3.816s] running egg_info
+[3.818s] creating build/camera/camera.egg-info
+[3.819s] writing build/camera/camera.egg-info/PKG-INFO
+[3.820s] writing dependency_links to build/camera/camera.egg-info/dependency_links.txt
+[3.821s] writing entry points to build/camera/camera.egg-info/entry_points.txt
+[3.821s] writing requirements to build/camera/camera.egg-info/requires.txt
+[3.822s] writing top-level names to build/camera/camera.egg-info/top_level.txt
+[3.822s] writing manifest file 'build/camera/camera.egg-info/SOURCES.txt'
+[3.830s] reading manifest file 'build/camera/camera.egg-info/SOURCES.txt'
+[3.834s] writing manifest file 'build/camera/camera.egg-info/SOURCES.txt'
+[3.834s] running build
+[3.835s] running build_py
+[3.835s] creating /home/ubuntu/ros2_ws/src/camera/build/camera/build
+[3.836s] creating /home/ubuntu/ros2_ws/src/camera/build/camera/build/lib
+[3.836s] creating /home/ubuntu/ros2_ws/src/camera/build/camera/build/lib/camera
+[3.836s] copying camera/__init__.py -> /home/ubuntu/ros2_ws/src/camera/build/camera/build/lib/camera
+[3.837s] copying camera/wheel_control.py -> /home/ubuntu/ros2_ws/src/camera/build/camera/build/lib/camera
+[3.837s] copying camera/camera.py -> /home/ubuntu/ros2_ws/src/camera/build/camera/build/lib/camera
+[3.838s] running install
+[3.840s] running install_lib
+[3.843s] creating /home/ubuntu/ros2_ws/src/camera/install/camera/lib/python3.10/site-packages/camera
+[3.844s] copying /home/ubuntu/ros2_ws/src/camera/build/camera/build/lib/camera/__init__.py -> /home/ubuntu/ros2_ws/src/camera/install/camera/lib/python3.10/site-packages/camera
+[3.844s] copying /home/ubuntu/ros2_ws/src/camera/build/camera/build/lib/camera/wheel_control.py -> /home/ubuntu/ros2_ws/src/camera/install/camera/lib/python3.10/site-packages/camera
+[3.845s] copying /home/ubuntu/ros2_ws/src/camera/build/camera/build/lib/camera/camera.py -> /home/ubuntu/ros2_ws/src/camera/install/camera/lib/python3.10/site-packages/camera
+[3.848s] byte-compiling /home/ubuntu/ros2_ws/src/camera/install/camera/lib/python3.10/site-packages/camera/__init__.py to __init__.cpython-310.pyc
+[3.850s] byte-compiling /home/ubuntu/ros2_ws/src/camera/install/camera/lib/python3.10/site-packages/camera/wheel_control.py to wheel_control.cpython-310.pyc
+[3.854s] byte-compiling /home/ubuntu/ros2_ws/src/camera/install/camera/lib/python3.10/site-packages/camera/camera.py to camera.cpython-310.pyc
+[3.858s] running install_data
+[3.859s] creating /home/ubuntu/ros2_ws/src/camera/install/camera/share/ament_index
+[3.860s] creating /home/ubuntu/ros2_ws/src/camera/install/camera/share/ament_index/resource_index
+[3.861s] creating /home/ubuntu/ros2_ws/src/camera/install/camera/share/ament_index/resource_index/packages
+[3.861s] copying resource/camera -> /home/ubuntu/ros2_ws/src/camera/install/camera/share/ament_index/resource_index/packages
+[3.861s] copying package.xml -> /home/ubuntu/ros2_ws/src/camera/install/camera/share/camera
+[3.862s] running install_egg_info
+[3.868s] Copying build/camera/camera.egg-info to /home/ubuntu/ros2_ws/src/camera/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+[3.874s] running install_scripts
+[3.957s] Installing camera script to /home/ubuntu/ros2_ws/src/camera/install/camera/lib/camera
+[3.958s] Installing wheels script to /home/ubuntu/ros2_ws/src/camera/install/camera/lib/camera
+[3.959s] writing list of installed files to '/home/ubuntu/ros2_ws/src/camera/build/camera/install.log'
+[4.074s] Invoked command in '/home/ubuntu/ros2_ws/src/camera' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/camera/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/camera/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/camera build --build-base /home/ubuntu/ros2_ws/src/camera/build/camera/build install --record /home/ubuntu/ros2_ws/src/camera/build/camera/install.log --single-version-externally-managed install_data

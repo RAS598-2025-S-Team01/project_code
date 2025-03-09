@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.001378] (camera_drive) JobQueued: {'identifier': 'camera_drive', 'dependencies': OrderedDict()}
+[0.001615] (tb_04) JobQueued: {'identifier': 'tb_04', 'dependencies': OrderedDict()}
+[0.001767] (wheels) JobQueued: {'identifier': 'wheels', 'dependencies': OrderedDict()}
+[0.001944] (camera_drive) JobStarted: {'identifier': 'camera_drive'}
+[0.056196] (tb_04) JobStarted: {'identifier': 'tb_04'}
+[0.096957] (wheels) JobStarted: {'identifier': 'wheels'}
+[0.098957] (-) TimerEvent: {}
+[0.199824] (-) TimerEvent: {}
+[0.300613] (-) TimerEvent: {}
+[0.401296] (-) TimerEvent: {}
+[0.501992] (-) TimerEvent: {}
+[0.602949] (-) TimerEvent: {}
+[0.704731] (-) TimerEvent: {}
+[0.805535] (-) TimerEvent: {}
+[0.906225] (-) TimerEvent: {}
+[1.007687] (-) TimerEvent: {}
+[1.108946] (-) TimerEvent: {}
+[1.209778] (-) TimerEvent: {}
+[1.310480] (-) TimerEvent: {}
+[1.411735] (-) TimerEvent: {}
+[1.512847] (-) TimerEvent: {}
+[1.615796] (-) TimerEvent: {}
+[1.722156] (-) TimerEvent: {}
+[1.826723] (-) TimerEvent: {}
+[1.927803] (-) TimerEvent: {}
+[2.029158] (-) TimerEvent: {}
+[2.129814] (-) TimerEvent: {}
+[2.230512] (-) TimerEvent: {}
+[2.331159] (-) TimerEvent: {}
+[2.432201] (-) TimerEvent: {}
+[2.533644] (-) TimerEvent: {}
+[2.634464] (-) TimerEvent: {}
+[2.735095] (-) TimerEvent: {}
+[2.835753] (-) TimerEvent: {}
+[2.936384] (-) TimerEvent: {}
+[3.037152] (-) TimerEvent: {}
+[3.139059] (-) TimerEvent: {}
+[3.241439] (-) TimerEvent: {}
+[3.342241] (-) TimerEvent: {}
+[3.446436] (-) TimerEvent: {}
+[3.547444] (-) TimerEvent: {}
+[3.648101] (-) TimerEvent: {}
+[3.753223] (-) TimerEvent: {}
+[3.854213] (-) TimerEvent: {}
+[3.955414] (-) TimerEvent: {}
+[4.057091] (-) TimerEvent: {}
+[4.157742] (-) TimerEvent: {}
+[4.258460] (-) TimerEvent: {}
+[4.359093] (-) TimerEvent: {}
+[4.460162] (-) TimerEvent: {}
+[4.561571] (-) TimerEvent: {}
+[4.662827] (-) TimerEvent: {}
+[4.764210] (-) TimerEvent: {}
+[4.866123] (-) TimerEvent: {}
+[4.967043] (-) TimerEvent: {}
+[5.068585] (-) TimerEvent: {}
+[5.171352] (-) TimerEvent: {}
+[5.279110] (-) TimerEvent: {}
+[5.384469] (-) TimerEvent: {}
+[5.486059] (-) TimerEvent: {}
+[5.587341] (-) TimerEvent: {}
+[5.688785] (-) TimerEvent: {}
+[5.790407] (-) TimerEvent: {}
+[5.893765] (-) TimerEvent: {}
+[5.996583] (-) TimerEvent: {}
+[6.098243] (-) TimerEvent: {}
+[6.202089] (-) TimerEvent: {}
+[6.307919] (-) TimerEvent: {}
+[6.409881] (-) TimerEvent: {}
+[6.511765] (-) TimerEvent: {}
+[6.613740] (-) TimerEvent: {}
+[6.716434] (-) TimerEvent: {}
+[6.818245] (-) TimerEvent: {}
+[6.919740] (-) TimerEvent: {}
+[7.020580] (-) TimerEvent: {}
+[7.121275] (-) TimerEvent: {}
+[7.222222] (-) TimerEvent: {}
+[7.325857] (-) TimerEvent: {}
+[7.429084] (-) TimerEvent: {}
+[7.532969] (-) TimerEvent: {}
+[7.614797] (camera_drive) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/camera_drive', 'build', '--build-base', '/home/ubuntu/ros2_ws/src/build/camera_drive/build', 'install', '--record', '/home/ubuntu/ros2_ws/src/build/camera_drive/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/camera_drive', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKSPACE_SETUP': '/opt/ros/humble/setup.bash', 'USER': 'ubuntu', 'SSH_CLIENT': '10.166.219.55 45634 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': '/home/ubuntu/cyclonedds.xml', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install', 'ROBOT_SETUP': '/etc/turtlebot4/setup.bash', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'ROS_SUPER_CLIENT': 'True', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/home/ubuntu/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/turtlebot4/fastdds_rpi.xml', 'TURTLEBOT4_DIAGNOSTICS': '1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install/tb_04:/home/ubuntu/ros2_ws/src/install/wheels:/home/ubuntu/ros2_ws/src/install/camera_drive:/home/ubuntu/ros2_ws/src/install/camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'ROS_DISCOVERY_SERVER': '10.166.219.19:11811;10.166.219.55:11811;127.0.0.1:11811', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'ROBOT_NAMESPACE': '/c3_04', 'PWD': '/home/ubuntu/ros2_ws/src/build/camera_drive', 'SSH_CONNECTION': '10.166.219.55 45634 10.166.219.19 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/src/build/camera_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/tb_04/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.645805] (-) TimerEvent: {}
+[7.700661] (tb_04) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/tb_04', 'build', '--build-base', '/home/ubuntu/ros2_ws/src/build/tb_04/build', 'install', '--record', '/home/ubuntu/ros2_ws/src/build/tb_04/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/tb_04', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKSPACE_SETUP': '/opt/ros/humble/setup.bash', 'USER': 'ubuntu', 'SSH_CLIENT': '10.166.219.55 45634 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': '/home/ubuntu/cyclonedds.xml', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install', 'ROBOT_SETUP': '/etc/turtlebot4/setup.bash', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'ROS_SUPER_CLIENT': 'True', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/home/ubuntu/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/turtlebot4/fastdds_rpi.xml', 'TURTLEBOT4_DIAGNOSTICS': '1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install/tb_04:/home/ubuntu/ros2_ws/src/install/wheels:/home/ubuntu/ros2_ws/src/install/camera_drive:/home/ubuntu/ros2_ws/src/install/camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'ROS_DISCOVERY_SERVER': '10.166.219.19:11811;10.166.219.55:11811;127.0.0.1:11811', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'ROBOT_NAMESPACE': '/c3_04', 'PWD': '/home/ubuntu/ros2_ws/src/build/tb_04', 'SSH_CONNECTION': '10.166.219.55 45634 10.166.219.19 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/src/build/tb_04/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/tb_04/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/tb_04/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.749668] (wheels) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/wheels', 'build', '--build-base', '/home/ubuntu/ros2_ws/src/build/wheels/build', 'install', '--record', '/home/ubuntu/ros2_ws/src/build/wheels/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/wheels', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKSPACE_SETUP': '/opt/ros/humble/setup.bash', 'USER': 'ubuntu', 'SSH_CLIENT': '10.166.219.55 45634 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'CYCLONEDDS_URI': '/home/ubuntu/cyclonedds.xml', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install', 'ROBOT_SETUP': '/etc/turtlebot4/setup.bash', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'ROS_SUPER_CLIENT': 'True', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.local/bin:/home/ubuntu/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/bin', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/turtlebot4/fastdds_rpi.xml', 'TURTLEBOT4_DIAGNOSTICS': '1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install/tb_04:/home/ubuntu/ros2_ws/src/install/wheels:/home/ubuntu/ros2_ws/src/install/camera_drive:/home/ubuntu/ros2_ws/src/install/camera:/opt/ros/humble', 'SHELL': '/bin/bash', 'ROS_DISCOVERY_SERVER': '10.166.219.19:11811;10.166.219.55:11811;127.0.0.1:11811', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'ROBOT_NAMESPACE': '/c3_04', 'PWD': '/home/ubuntu/ros2_ws/src/build/wheels', 'SSH_CONNECTION': '10.166.219.55 45634 10.166.219.19 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/src/build/wheels/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/tb_04/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.759468] (-) TimerEvent: {}
+[7.868768] (-) TimerEvent: {}
+[7.971268] (-) TimerEvent: {}
+[8.072933] (-) TimerEvent: {}
+[8.174954] (-) TimerEvent: {}
+[8.276038] (-) TimerEvent: {}
+[8.377697] (-) TimerEvent: {}
+[8.479549] (-) TimerEvent: {}
+[8.581092] (-) TimerEvent: {}
+[8.682874] (-) TimerEvent: {}
+[8.784800] (-) TimerEvent: {}
+[8.886661] (-) TimerEvent: {}
+[8.988373] (-) TimerEvent: {}
+[9.097709] (-) TimerEvent: {}
+[9.198495] (-) TimerEvent: {}
+[9.300508] (-) TimerEvent: {}
+[9.402400] (-) TimerEvent: {}
+[9.505611] (-) TimerEvent: {}
+[9.564863] (tb_04) StdoutLine: {'line': b'running egg_info\n'}
+[9.568148] (tb_04) StdoutLine: {'line': b'writing ../build/tb_04/tb_04.egg-info/PKG-INFO\n'}
+[9.569962] (tb_04) StdoutLine: {'line': b'writing dependency_links to ../build/tb_04/tb_04.egg-info/dependency_links.txt\n'}
+[9.571304] (tb_04) StdoutLine: {'line': b'writing entry points to ../build/tb_04/tb_04.egg-info/entry_points.txt\n'}
+[9.572364] (tb_04) StdoutLine: {'line': b'writing requirements to ../build/tb_04/tb_04.egg-info/requires.txt\n'}
+[9.573266] (tb_04) StdoutLine: {'line': b'writing top-level names to ../build/tb_04/tb_04.egg-info/top_level.txt\n'}
+[9.585272] (tb_04) StdoutLine: {'line': b"reading manifest file '../build/tb_04/tb_04.egg-info/SOURCES.txt'\n"}
+[9.589580] (tb_04) StdoutLine: {'line': b"writing manifest file '../build/tb_04/tb_04.egg-info/SOURCES.txt'\n"}
+[9.590473] (tb_04) StdoutLine: {'line': b'running build\n'}
+[9.591092] (tb_04) StdoutLine: {'line': b'running build_py\n'}
+[9.591892] (tb_04) StdoutLine: {'line': b'copying tb_04/camera_drive.py -> /home/ubuntu/ros2_ws/src/build/tb_04/build/lib/tb_04\n'}
+[9.594100] (tb_04) StdoutLine: {'line': b'running install\n'}
+[9.595653] (tb_04) StdoutLine: {'line': b'running install_lib\n'}
+[9.599491] (tb_04) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/build/tb_04/build/lib/tb_04/camera_drive.py -> /home/ubuntu/ros2_ws/src/install/tb_04/lib/python3.10/site-packages/tb_04\n'}
+[9.603204] (tb_04) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/install/tb_04/lib/python3.10/site-packages/tb_04/camera_drive.py to camera_drive.cpython-310.pyc\n'}
+[9.605803] (-) TimerEvent: {}
+[9.607799] (camera_drive) StdoutLine: {'line': b'running egg_info\n'}
+[9.609066] (tb_04) StdoutLine: {'line': b'running install_data\n'}
+[9.610192] (tb_04) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.610914] (camera_drive) StdoutLine: {'line': b'writing ../build/camera_drive/camera_drive.egg-info/PKG-INFO\n'}
+[9.612243] (camera_drive) StdoutLine: {'line': b'writing dependency_links to ../build/camera_drive/camera_drive.egg-info/dependency_links.txt\n'}
+[9.613554] (camera_drive) StdoutLine: {'line': b'writing entry points to ../build/camera_drive/camera_drive.egg-info/entry_points.txt\n'}
+[9.615710] (camera_drive) StdoutLine: {'line': b'writing requirements to ../build/camera_drive/camera_drive.egg-info/requires.txt\n'}
+[9.627436] (camera_drive) StdoutLine: {'line': b'writing top-level names to ../build/camera_drive/camera_drive.egg-info/top_level.txt\n'}
+[9.628664] (tb_04) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/src/install/tb_04/lib/python3.10/site-packages/tb_04-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.629315] (tb_04) StdoutLine: {'line': b'Copying ../build/tb_04/tb_04.egg-info to /home/ubuntu/ros2_ws/src/install/tb_04/lib/python3.10/site-packages/tb_04-0.0.0-py3.10.egg-info\n'}
+[9.636926] (camera_drive) StdoutLine: {'line': b"reading manifest file '../build/camera_drive/camera_drive.egg-info/SOURCES.txt'\n"}
+[9.637489] (tb_04) StdoutLine: {'line': b'running install_scripts\n'}
+[9.640144] (camera_drive) StdoutLine: {'line': b"writing manifest file '../build/camera_drive/camera_drive.egg-info/SOURCES.txt'\n"}
+[9.641185] (camera_drive) StdoutLine: {'line': b'running build\n'}
+[9.641843] (camera_drive) StdoutLine: {'line': b'running build_py\n'}
+[9.643043] (camera_drive) StdoutLine: {'line': b'running install\n'}
+[9.644901] (camera_drive) StdoutLine: {'line': b'running install_lib\n'}
+[9.654923] (camera_drive) StdoutLine: {'line': b'running install_data\n'}
+[9.666231] (camera_drive) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.672618] (camera_drive) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages/camera_drive-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.677317] (camera_drive) StdoutLine: {'line': b'Copying ../build/camera_drive/camera_drive.egg-info to /home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages/camera_drive-0.0.0-py3.10.egg-info\n'}
+[9.688011] (camera_drive) StdoutLine: {'line': b'running install_scripts\n'}
+[9.706077] (-) TimerEvent: {}
+[9.731843] (wheels) StdoutLine: {'line': b'running egg_info\n'}
+[9.735087] (wheels) StdoutLine: {'line': b'writing ../build/wheels/wheels.egg-info/PKG-INFO\n'}
+[9.736608] (wheels) StdoutLine: {'line': b'writing dependency_links to ../build/wheels/wheels.egg-info/dependency_links.txt\n'}
+[9.737800] (wheels) StdoutLine: {'line': b'writing entry points to ../build/wheels/wheels.egg-info/entry_points.txt\n'}
+[9.739134] (wheels) StdoutLine: {'line': b'writing requirements to ../build/wheels/wheels.egg-info/requires.txt\n'}
+[9.740277] (wheels) StdoutLine: {'line': b'writing top-level names to ../build/wheels/wheels.egg-info/top_level.txt\n'}
+[9.753051] (wheels) StdoutLine: {'line': b"reading manifest file '../build/wheels/wheels.egg-info/SOURCES.txt'\n"}
+[9.767207] (wheels) StdoutLine: {'line': b"writing manifest file '../build/wheels/wheels.egg-info/SOURCES.txt'\n"}
+[9.768292] (wheels) StdoutLine: {'line': b'running build\n'}
+[9.769137] (wheels) StdoutLine: {'line': b'running build_py\n'}
+[9.770637] (wheels) StdoutLine: {'line': b'running install\n'}
+[9.771529] (wheels) StdoutLine: {'line': b'running install_lib\n'}
+[9.780919] (wheels) StdoutLine: {'line': b'running install_data\n'}
+[9.782000] (wheels) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.787328] (tb_04) StdoutLine: {'line': b'Installing camera script to /home/ubuntu/ros2_ws/src/install/tb_04/lib/tb_04\n'}
+[9.789648] (tb_04) StdoutLine: {'line': b'Installing drive script to /home/ubuntu/ros2_ws/src/install/tb_04/lib/tb_04\n'}
+[9.791200] (wheels) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages/wheels-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.792191] (tb_04) StdoutLine: {'line': b'Installing wheels script to /home/ubuntu/ros2_ws/src/install/tb_04/lib/tb_04\n'}
+[9.793374] (wheels) StdoutLine: {'line': b'Copying ../build/wheels/wheels.egg-info to /home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages/wheels-0.0.0-py3.10.egg-info\n'}
+[9.794467] (tb_04) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/src/build/tb_04/install.log'\n"}
+[9.806352] (-) TimerEvent: {}
+[9.809402] (camera_drive) StdoutLine: {'line': b'Installing camera_dive script to /home/ubuntu/ros2_ws/src/install/camera_drive/lib/camera_drive\n'}
+[9.812349] (camera_drive) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/src/build/camera_drive/install.log'\n"}
+[9.817501] (wheels) StdoutLine: {'line': b'running install_scripts\n'}
+[9.906778] (-) TimerEvent: {}
+[10.009056] (-) TimerEvent: {}
+[10.061560] (tb_04) CommandEnded: {'returncode': 0}
+[10.063377] (wheels) StdoutLine: {'line': b'Installing wheels script to /home/ubuntu/ros2_ws/src/install/wheels/lib/wheels\n'}
+[10.064725] (wheels) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/src/build/wheels/install.log'\n"}
+[10.109341] (-) TimerEvent: {}
+[10.177341] (tb_04) JobEnded: {'identifier': 'tb_04', 'rc': 0}
+[10.187434] (camera_drive) CommandEnded: {'returncode': 0}
+[10.210061] (-) TimerEvent: {}
+[10.258394] (camera_drive) JobEnded: {'identifier': 'camera_drive', 'rc': 0}
+[10.263515] (wheels) CommandEnded: {'returncode': 0}
+[10.295667] (wheels) JobEnded: {'identifier': 'wheels', 'rc': 0}
+[10.299327] (-) EventReactorShutdown: {}

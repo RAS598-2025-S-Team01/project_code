@@ -1,0 +1,215 @@
+[0.610s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.610s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff7fc40ee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7fc40850>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7fc40850>>, mixin_verb=('build',))
+[1.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.578s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros2_ws/src'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.648s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extensions ['ignore', 'ignore_ament_install']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extension 'ignore'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extension 'ignore_ament_install'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extensions ['colcon_pkg']
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extension 'colcon_pkg'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extensions ['colcon_meta']
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extension 'colcon_meta'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extensions ['ros']
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(camera) by extension 'ros'
+[1.660s] DEBUG:colcon.colcon_core.package_identification:Package 'camera' with type 'ros.ament_python' and name 'camera'
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(camera_drive) by extensions ['ignore', 'ignore_ament_install']
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(camera_drive) by extension 'ignore'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(camera_drive) by extension 'ignore_ament_install'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(camera_drive) by extensions ['colcon_pkg']
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(camera_drive) by extension 'colcon_pkg'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(camera_drive) by extensions ['colcon_meta']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(camera_drive) by extension 'colcon_meta'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(camera_drive) by extensions ['ros']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(camera_drive) by extension 'ros'
+[1.667s] DEBUG:colcon.colcon_core.package_identification:Package 'camera_drive' with type 'ros.ament_python' and name 'camera_drive'
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(wheels) by extensions ['ignore', 'ignore_ament_install']
+[1.673s] Level 1:colcon.colcon_core.package_identification:_identify(wheels) by extension 'ignore'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(wheels) by extension 'ignore_ament_install'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(wheels) by extensions ['colcon_pkg']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(wheels) by extension 'colcon_pkg'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(wheels) by extensions ['colcon_meta']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(wheels) by extension 'colcon_meta'
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(wheels) by extensions ['ros']
+[1.674s] Level 1:colcon.colcon_core.package_identification:_identify(wheels) by extension 'ros'
+[1.677s] DEBUG:colcon.colcon_core.package_identification:Package 'wheels' with type 'ros.ament_python' and name 'wheels'
+[1.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.780s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.789s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/ubuntu/ros2_ws/src/install
+[1.800s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/humble
+[1.857s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.093s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_args' from command line to 'None'
+[2.093s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_target' from command line to 'None'
+[2.093s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.093s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_clean_cache' from command line to 'False'
+[2.094s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_clean_first' from command line to 'False'
+[2.094s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_force_configure' from command line to 'False'
+[2.094s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'ament_cmake_args' from command line to 'None'
+[2.094s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'catkin_cmake_args' from command line to 'None'
+[2.094s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.094s] DEBUG:colcon.colcon_core.verb:Building package 'camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/src/build/camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/src/install/camera', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/camera', 'symlink_install': False, 'test_result_base': None}
+[2.096s] Level 5:colcon.colcon_core.verb:set package 'camera_drive' build argument 'cmake_args' from command line to 'None'
+[2.096s] Level 5:colcon.colcon_core.verb:set package 'camera_drive' build argument 'cmake_target' from command line to 'None'
+[2.096s] Level 5:colcon.colcon_core.verb:set package 'camera_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.096s] Level 5:colcon.colcon_core.verb:set package 'camera_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[2.097s] Level 5:colcon.colcon_core.verb:set package 'camera_drive' build argument 'cmake_clean_first' from command line to 'False'
+[2.097s] Level 5:colcon.colcon_core.verb:set package 'camera_drive' build argument 'cmake_force_configure' from command line to 'False'
+[2.097s] Level 5:colcon.colcon_core.verb:set package 'camera_drive' build argument 'ament_cmake_args' from command line to 'None'
+[2.097s] Level 5:colcon.colcon_core.verb:set package 'camera_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[2.097s] Level 5:colcon.colcon_core.verb:set package 'camera_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.097s] DEBUG:colcon.colcon_core.verb:Building package 'camera_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/src/build/camera_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/src/install/camera_drive', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/camera_drive', 'symlink_install': False, 'test_result_base': None}
+[2.099s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'cmake_args' from command line to 'None'
+[2.099s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'cmake_target' from command line to 'None'
+[2.099s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.099s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'cmake_clean_cache' from command line to 'False'
+[2.099s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'cmake_clean_first' from command line to 'False'
+[2.099s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'cmake_force_configure' from command line to 'False'
+[2.099s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'ament_cmake_args' from command line to 'None'
+[2.099s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'catkin_cmake_args' from command line to 'None'
+[2.099s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.100s] DEBUG:colcon.colcon_core.verb:Building package 'wheels' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/src/build/wheels', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/src/install/wheels', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/wheels', 'symlink_install': False, 'test_result_base': None}
+[2.100s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.103s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.104s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ros2_ws/src/camera' with build type 'ament_python'
+[2.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera', 'ament_prefix_path')
+[2.117s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/install/camera/share/camera/hook/ament_prefix_path.ps1'
+[2.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/src/install/camera/share/camera/hook/ament_prefix_path.dsv'
+[2.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/install/camera/share/camera/hook/ament_prefix_path.sh'
+[2.126s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.126s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.152s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ros2_ws/src/camera_drive' with build type 'ament_python'
+[2.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_drive', 'ament_prefix_path')
+[2.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/install/camera_drive/share/camera_drive/hook/ament_prefix_path.ps1'
+[2.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/src/install/camera_drive/share/camera_drive/hook/ament_prefix_path.dsv'
+[2.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/install/camera_drive/share/camera_drive/hook/ament_prefix_path.sh'
+[2.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.195s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ros2_ws/src/wheels' with build type 'ament_python'
+[2.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheels', 'ament_prefix_path')
+[2.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/install/wheels/share/wheels/hook/ament_prefix_path.ps1'
+[2.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/src/install/wheels/share/wheels/hook/ament_prefix_path.dsv'
+[2.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/install/wheels/share/wheels/hook/ament_prefix_path.sh'
+[2.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.672s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ros2_ws/src/camera'
+[3.674s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.674s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.112s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ros2_ws/src/camera_drive'
+[5.113s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.114s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.592s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ros2_ws/src/wheels'
+[6.593s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.593s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/src/wheels': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/wheels/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/wheels build --build-base /home/ubuntu/ros2_ws/src/build/wheels/build install --record /home/ubuntu/ros2_ws/src/build/wheels/install.log --single-version-externally-managed install_data
+[9.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/src/camera': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/camera build --build-base /home/ubuntu/ros2_ws/src/build/camera/build install --record /home/ubuntu/ros2_ws/src/build/camera/install.log --single-version-externally-managed install_data
+[9.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/src/camera_drive': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/camera_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/camera_drive build --build-base /home/ubuntu/ros2_ws/src/build/camera_drive/build install --record /home/ubuntu/ros2_ws/src/build/camera_drive/install.log --single-version-externally-managed install_data
+[11.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/src/wheels' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/wheels/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/wheels build --build-base /home/ubuntu/ros2_ws/src/build/wheels/build install --record /home/ubuntu/ros2_ws/src/build/wheels/install.log --single-version-externally-managed install_data
+[11.617s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/wheels' for CMake module files
+[11.619s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/wheels' for CMake config files
+[11.625s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/wheels/lib'
+[11.632s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/wheels/bin'
+[11.633s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/wheels/lib/pkgconfig/wheels.pc'
+[11.634s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages'
+[11.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheels', 'pythonpath')
+[11.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/install/wheels/share/wheels/hook/pythonpath.ps1'
+[11.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/src/install/wheels/share/wheels/hook/pythonpath.dsv'
+[11.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/install/wheels/share/wheels/hook/pythonpath.sh'
+[11.652s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/wheels/bin'
+[11.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheels)
+[11.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/src/install/wheels/share/wheels/package.ps1'
+[11.674s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/src/install/wheels/share/wheels/package.dsv'
+[11.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/src/install/wheels/share/wheels/package.sh'
+[11.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/src/install/wheels/share/wheels/package.bash'
+[11.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/src/install/wheels/share/wheels/package.zsh'
+[11.690s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/src/install/wheels/share/colcon-core/packages/wheels)
+[11.980s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/camera' for CMake module files
+[11.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/src/camera' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/camera build --build-base /home/ubuntu/ros2_ws/src/build/camera/build install --record /home/ubuntu/ros2_ws/src/build/camera/install.log --single-version-externally-managed install_data
+[11.986s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/camera' for CMake config files
+[11.992s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/camera/lib'
+[11.993s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/camera/bin'
+[11.993s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/camera/lib/pkgconfig/camera.pc'
+[11.995s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/camera/lib/python3.10/site-packages'
+[11.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera', 'pythonpath')
+[11.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/install/camera/share/camera/hook/pythonpath.ps1'
+[12.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/src/install/camera/share/camera/hook/pythonpath.dsv'
+[12.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/install/camera/share/camera/hook/pythonpath.sh'
+[12.027s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/camera/bin'
+[12.027s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera)
+[12.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/src/install/camera/share/camera/package.ps1'
+[12.036s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/src/install/camera/share/camera/package.dsv'
+[12.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/src/install/camera/share/camera/package.sh'
+[12.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/src/install/camera/share/camera/package.bash'
+[12.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/src/install/camera/share/camera/package.zsh'
+[12.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/src/install/camera/share/colcon-core/packages/camera)
+[12.138s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/camera_drive' for CMake module files
+[12.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/src/camera_drive' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/camera_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/camera_drive build --build-base /home/ubuntu/ros2_ws/src/build/camera_drive/build install --record /home/ubuntu/ros2_ws/src/build/camera_drive/install.log --single-version-externally-managed install_data
+[12.145s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/camera_drive' for CMake config files
+[12.153s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/camera_drive/lib'
+[12.154s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/camera_drive/bin'
+[12.154s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/camera_drive/lib/pkgconfig/camera_drive.pc'
+[12.155s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages'
+[12.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_drive', 'pythonpath')
+[12.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/install/camera_drive/share/camera_drive/hook/pythonpath.ps1'
+[12.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws/src/install/camera_drive/share/camera_drive/hook/pythonpath.dsv'
+[12.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws/src/install/camera_drive/share/camera_drive/hook/pythonpath.sh'
+[12.162s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/src/install/camera_drive/bin'
+[12.163s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_drive)
+[12.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/src/install/camera_drive/share/camera_drive/package.ps1'
+[12.166s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/src/install/camera_drive/share/camera_drive/package.dsv'
+[12.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/src/install/camera_drive/share/camera_drive/package.sh'
+[12.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/src/install/camera_drive/share/camera_drive/package.bash'
+[12.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/src/install/camera_drive/share/camera_drive/package.zsh'
+[12.175s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/src/install/camera_drive/share/colcon-core/packages/camera_drive)
+[12.176s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.178s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.178s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.179s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.203s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[12.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.204s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.207s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[12.208s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.209s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/src/install/local_setup.ps1'
+[12.213s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/src/install/_local_setup_util_ps1.py'
+[12.220s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/src/install/setup.ps1'
+[12.229s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/src/install/local_setup.sh'
+[12.238s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/src/install/_local_setup_util_sh.py'
+[12.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/src/install/setup.sh'
+[12.248s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/src/install/local_setup.bash'
+[12.251s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/src/install/setup.bash'
+[12.256s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/src/install/local_setup.zsh'
+[12.259s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/src/install/setup.zsh'

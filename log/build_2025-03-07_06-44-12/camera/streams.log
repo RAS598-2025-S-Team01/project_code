@@ -1,0 +1,21 @@
+[7.536s] Invoking command in '/home/ubuntu/ros2_ws/src/camera': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/camera build --build-base /home/ubuntu/ros2_ws/src/build/camera/build install --record /home/ubuntu/ros2_ws/src/build/camera/install.log --single-version-externally-managed install_data
+[9.767s] running egg_info
+[9.777s] writing ../build/camera/camera.egg-info/PKG-INFO
+[9.780s] writing dependency_links to ../build/camera/camera.egg-info/dependency_links.txt
+[9.783s] writing entry points to ../build/camera/camera.egg-info/entry_points.txt
+[9.785s] writing requirements to ../build/camera/camera.egg-info/requires.txt
+[9.786s] writing top-level names to ../build/camera/camera.egg-info/top_level.txt
+[9.799s] reading manifest file '../build/camera/camera.egg-info/SOURCES.txt'
+[9.809s] writing manifest file '../build/camera/camera.egg-info/SOURCES.txt'
+[9.813s] running build
+[9.815s] running build_py
+[9.816s] running install
+[9.822s] running install_lib
+[9.832s] running install_data
+[9.835s] running install_egg_info
+[9.849s] removing '/home/ubuntu/ros2_ws/src/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info' (and everything under it)
+[9.851s] Copying ../build/camera/camera.egg-info to /home/ubuntu/ros2_ws/src/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+[9.862s] running install_scripts
+[10.022s] Installing camera script to /home/ubuntu/ros2_ws/src/install/camera/lib/camera
+[10.026s] writing list of installed files to '/home/ubuntu/ros2_ws/src/build/camera/install.log'
+[10.315s] Invoked command in '/home/ubuntu/ros2_ws/src/camera' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/camera build --build-base /home/ubuntu/ros2_ws/src/build/camera/build install --record /home/ubuntu/ros2_ws/src/build/camera/install.log --single-version-externally-managed install_data

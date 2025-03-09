@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/ros2_ws/src/camera_drive/setup.py", line 1, in <module>
+    from setuptools import find_packages, setup
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 18, in <module>
+    from setuptools.dist import Distribution
+  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 39, in <module>
+    from setuptools.config import parse_configuration
+  File "/usr/lib/python3/dist-packages/setuptools/config.py", line 16, in <module>
+    from setuptools.extern.packaging.version import Version, InvalidVersion
+  File "/usr/lib/python3/dist-packages/setuptools/_vendor/packaging/version.py", line 37, in <module>
+    _Version = collections.namedtuple(
+  File "/usr/lib/python3.10/collections/__init__.py", line 417, in namedtuple
+    if defaults is not None:
+KeyboardInterrupt

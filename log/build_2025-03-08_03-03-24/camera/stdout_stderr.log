@@ -1,0 +1,23 @@
+running egg_info
+writing ../build/camera/camera.egg-info/PKG-INFO
+writing dependency_links to ../build/camera/camera.egg-info/dependency_links.txt
+writing entry points to ../build/camera/camera.egg-info/entry_points.txt
+writing requirements to ../build/camera/camera.egg-info/requires.txt
+writing top-level names to ../build/camera/camera.egg-info/top_level.txt
+reading manifest file '../build/camera/camera.egg-info/SOURCES.txt'
+writing manifest file '../build/camera/camera.egg-info/SOURCES.txt'
+running build
+running build_py
+copying camera/wheel_control.py -> /home/ubuntu/ros2_ws/src/build/camera/build/lib/camera
+running install
+running install_lib
+copying /home/ubuntu/ros2_ws/src/build/camera/build/lib/camera/wheel_control.py -> /home/ubuntu/ros2_ws/src/install/camera/lib/python3.10/site-packages/camera
+byte-compiling /home/ubuntu/ros2_ws/src/install/camera/lib/python3.10/site-packages/camera/wheel_control.py to wheel_control.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/ubuntu/ros2_ws/src/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/camera/camera.egg-info to /home/ubuntu/ros2_ws/src/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera script to /home/ubuntu/ros2_ws/src/install/camera/lib/tb_04
+Installing wheels script to /home/ubuntu/ros2_ws/src/install/camera/lib/tb_04
+writing list of installed files to '/home/ubuntu/ros2_ws/src/build/camera/install.log'

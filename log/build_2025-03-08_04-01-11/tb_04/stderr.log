@@ -1,0 +1,5 @@
+  File "/home/ubuntu/ros2_ws/src/install/tb_04/lib/python3.10/site-packages/tb_04/camera_drive.py", line 145
+    ~                    
+                         ^
+SyntaxError: invalid syntax
+

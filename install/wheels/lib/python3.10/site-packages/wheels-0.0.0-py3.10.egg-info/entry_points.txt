@@ -1,0 +1,3 @@
+[console_scripts]
+wheels = wheels.wheel_control:main
+

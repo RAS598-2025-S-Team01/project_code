@@ -1,0 +1,21 @@
+[5.526s] Invoking command in '/home/ubuntu/ros2_ws/src/camera_drive': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/camera_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/camera_drive build --build-base /home/ubuntu/ros2_ws/src/build/camera_drive/build install --record /home/ubuntu/ros2_ws/src/build/camera_drive/install.log --single-version-externally-managed install_data
+[6.930s] running egg_info
+[6.934s] writing ../build/camera_drive/camera_drive.egg-info/PKG-INFO
+[6.936s] writing dependency_links to ../build/camera_drive/camera_drive.egg-info/dependency_links.txt
+[6.937s] writing entry points to ../build/camera_drive/camera_drive.egg-info/entry_points.txt
+[6.938s] writing requirements to ../build/camera_drive/camera_drive.egg-info/requires.txt
+[6.939s] writing top-level names to ../build/camera_drive/camera_drive.egg-info/top_level.txt
+[6.947s] reading manifest file '../build/camera_drive/camera_drive.egg-info/SOURCES.txt'
+[6.953s] writing manifest file '../build/camera_drive/camera_drive.egg-info/SOURCES.txt'
+[6.954s] running build
+[6.954s] running build_py
+[6.956s] running install
+[6.957s] running install_lib
+[6.964s] running install_data
+[6.965s] running install_egg_info
+[6.973s] removing '/home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages/camera_drive-0.0.0-py3.10.egg-info' (and everything under it)
+[6.975s] Copying ../build/camera_drive/camera_drive.egg-info to /home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages/camera_drive-0.0.0-py3.10.egg-info
+[6.988s] running install_scripts
+[7.157s] Installing camera_dive script to /home/ubuntu/ros2_ws/src/install/camera_drive/lib/camera_drive
+[7.158s] writing list of installed files to '/home/ubuntu/ros2_ws/src/build/camera_drive/install.log'
+[7.282s] Invoked command in '/home/ubuntu/ros2_ws/src/camera_drive' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/camera_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/camera_drive build --build-base /home/ubuntu/ros2_ws/src/build/camera_drive/build install --record /home/ubuntu/ros2_ws/src/build/camera_drive/install.log --single-version-externally-managed install_data

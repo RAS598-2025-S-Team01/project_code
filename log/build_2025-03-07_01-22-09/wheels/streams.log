@@ -1,0 +1,37 @@
+[4.369s] Invoking command in '/home/ubuntu/ros2_ws/src/wheels': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/wheels/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/wheels build --build-base /home/ubuntu/ros2_ws/src/build/wheels/build install --record /home/ubuntu/ros2_ws/src/build/wheels/install.log --single-version-externally-managed install_data
+[5.770s] running egg_info
+[5.772s] creating ../build/wheels/wheels.egg-info
+[5.773s] writing ../build/wheels/wheels.egg-info/PKG-INFO
+[5.774s] writing dependency_links to ../build/wheels/wheels.egg-info/dependency_links.txt
+[5.775s] writing entry points to ../build/wheels/wheels.egg-info/entry_points.txt
+[5.776s] writing requirements to ../build/wheels/wheels.egg-info/requires.txt
+[5.777s] writing top-level names to ../build/wheels/wheels.egg-info/top_level.txt
+[5.777s] writing manifest file '../build/wheels/wheels.egg-info/SOURCES.txt'
+[5.793s] reading manifest file '../build/wheels/wheels.egg-info/SOURCES.txt'
+[5.795s] writing manifest file '../build/wheels/wheels.egg-info/SOURCES.txt'
+[5.796s] running build
+[5.796s] running build_py
+[5.797s] creating /home/ubuntu/ros2_ws/src/build/wheels/build
+[5.798s] creating /home/ubuntu/ros2_ws/src/build/wheels/build/lib
+[5.800s] creating /home/ubuntu/ros2_ws/src/build/wheels/build/lib/wheels
+[5.800s] copying wheels/__init__.py -> /home/ubuntu/ros2_ws/src/build/wheels/build/lib/wheels
+[5.801s] copying wheels/wheel_control.py -> /home/ubuntu/ros2_ws/src/build/wheels/build/lib/wheels
+[5.802s] running install
+[5.805s] running install_lib
+[5.813s] creating /home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages/wheels
+[5.813s] copying /home/ubuntu/ros2_ws/src/build/wheels/build/lib/wheels/__init__.py -> /home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages/wheels
+[5.813s] copying /home/ubuntu/ros2_ws/src/build/wheels/build/lib/wheels/wheel_control.py -> /home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages/wheels
+[5.816s] byte-compiling /home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages/wheels/__init__.py to __init__.cpython-310.pyc
+[5.817s] byte-compiling /home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages/wheels/wheel_control.py to wheel_control.cpython-310.pyc
+[5.820s] running install_data
+[5.821s] creating /home/ubuntu/ros2_ws/src/install/wheels/share/ament_index
+[5.821s] creating /home/ubuntu/ros2_ws/src/install/wheels/share/ament_index/resource_index
+[5.821s] creating /home/ubuntu/ros2_ws/src/install/wheels/share/ament_index/resource_index/packages
+[5.822s] copying resource/wheels -> /home/ubuntu/ros2_ws/src/install/wheels/share/ament_index/resource_index/packages
+[5.822s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/wheels/share/wheels
+[5.823s] running install_egg_info
+[5.829s] Copying ../build/wheels/wheels.egg-info to /home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages/wheels-0.0.0-py3.10.egg-info
+[5.836s] running install_scripts
+[5.944s] Installing wheels script to /home/ubuntu/ros2_ws/src/install/wheels/lib/wheels
+[5.946s] writing list of installed files to '/home/ubuntu/ros2_ws/src/build/wheels/install.log'
+[6.105s] Invoked command in '/home/ubuntu/ros2_ws/src/wheels' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/wheels/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/wheels build --build-base /home/ubuntu/ros2_ws/src/build/wheels/build install --record /home/ubuntu/ros2_ws/src/build/wheels/install.log --single-version-externally-managed install_data

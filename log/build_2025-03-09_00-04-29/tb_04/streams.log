@@ -1,0 +1,26 @@
+[16.648s] Invoking command in '/home/ubuntu/ros2_ws/src/tb_04': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/tb_04/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/tb_04/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/tb_04 build --build-base /home/ubuntu/ros2_ws/src/build/tb_04/build install --record /home/ubuntu/ros2_ws/src/build/tb_04/install.log --single-version-externally-managed install_data
+[20.419s] running egg_info
+[20.427s] writing ../build/tb_04/tb_04.egg-info/PKG-INFO
+[20.431s] writing dependency_links to ../build/tb_04/tb_04.egg-info/dependency_links.txt
+[20.439s] writing entry points to ../build/tb_04/tb_04.egg-info/entry_points.txt
+[20.439s] writing requirements to ../build/tb_04/tb_04.egg-info/requires.txt
+[20.442s] writing top-level names to ../build/tb_04/tb_04.egg-info/top_level.txt
+[20.522s] reading manifest file '../build/tb_04/tb_04.egg-info/SOURCES.txt'
+[20.533s] writing manifest file '../build/tb_04/tb_04.egg-info/SOURCES.txt'
+[20.538s] running build
+[20.540s] running build_py
+[20.547s] copying tb_04/camera_drive.py -> /home/ubuntu/ros2_ws/src/build/tb_04/build/lib/tb_04
+[20.555s] running install
+[20.558s] running install_lib
+[20.580s] copying /home/ubuntu/ros2_ws/src/build/tb_04/build/lib/tb_04/camera_drive.py -> /home/ubuntu/ros2_ws/src/install/tb_04/lib/python3.10/site-packages/tb_04
+[20.627s] byte-compiling /home/ubuntu/ros2_ws/src/install/tb_04/lib/python3.10/site-packages/tb_04/camera_drive.py to camera_drive.cpython-310.pyc
+[20.632s] running install_data
+[20.634s] running install_egg_info
+[20.645s] removing '/home/ubuntu/ros2_ws/src/install/tb_04/lib/python3.10/site-packages/tb_04-0.0.0-py3.10.egg-info' (and everything under it)
+[20.648s] Copying ../build/tb_04/tb_04.egg-info to /home/ubuntu/ros2_ws/src/install/tb_04/lib/python3.10/site-packages/tb_04-0.0.0-py3.10.egg-info
+[20.673s] running install_scripts
+[21.034s] Installing camera script to /home/ubuntu/ros2_ws/src/install/tb_04/lib/tb_04
+[21.037s] Installing drive script to /home/ubuntu/ros2_ws/src/install/tb_04/lib/tb_04
+[21.038s] Installing wheels script to /home/ubuntu/ros2_ws/src/install/tb_04/lib/tb_04
+[21.042s] writing list of installed files to '/home/ubuntu/ros2_ws/src/build/tb_04/install.log'
+[21.350s] Invoked command in '/home/ubuntu/ros2_ws/src/tb_04' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/tb_04/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/tb_04/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/tb_04 build --build-base /home/ubuntu/ros2_ws/src/build/tb_04/build install --record /home/ubuntu/ros2_ws/src/build/tb_04/install.log --single-version-externally-managed install_data

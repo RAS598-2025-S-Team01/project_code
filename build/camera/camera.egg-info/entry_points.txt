@@ -1,0 +1,4 @@
+[console_scripts]
+camera = camera.camera:main
+wheels = camera.wheel_control:main
+

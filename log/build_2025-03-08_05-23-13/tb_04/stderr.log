@@ -1,0 +1,4 @@
+/usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'zinstall_requires'
+  warnings.warn(msg)
+/usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'ip_safe'
+  warnings.warn(msg)

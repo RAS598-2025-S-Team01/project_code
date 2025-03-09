@@ -1,0 +1,19 @@
+running egg_info
+writing ../build/wheels/wheels.egg-info/PKG-INFO
+writing dependency_links to ../build/wheels/wheels.egg-info/dependency_links.txt
+writing entry points to ../build/wheels/wheels.egg-info/entry_points.txt
+writing requirements to ../build/wheels/wheels.egg-info/requires.txt
+writing top-level names to ../build/wheels/wheels.egg-info/top_level.txt
+reading manifest file '../build/wheels/wheels.egg-info/SOURCES.txt'
+writing manifest file '../build/wheels/wheels.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages/wheels-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/wheels/wheels.egg-info to /home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages/wheels-0.0.0-py3.10.egg-info
+running install_scripts
+Installing wheels script to /home/ubuntu/ros2_ws/src/install/wheels/lib/wheels
+writing list of installed files to '/home/ubuntu/ros2_ws/src/build/wheels/install.log'

@@ -1,0 +1,26 @@
+[0.000000] (-) TimerEvent: {}
+[0.001353] (camera) JobQueued: {'identifier': 'camera', 'dependencies': OrderedDict()}
+[0.001583] (camera_drive) JobQueued: {'identifier': 'camera_drive', 'dependencies': OrderedDict()}
+[0.001733] (wheels) JobQueued: {'identifier': 'wheels', 'dependencies': OrderedDict()}
+[0.001876] (camera) JobStarted: {'identifier': 'camera'}
+[0.040059] (camera_drive) JobStarted: {'identifier': 'camera_drive'}
+[0.069436] (wheels) JobStarted: {'identifier': 'wheels'}
+[0.098161] (-) TimerEvent: {}
+[0.199393] (-) TimerEvent: {}
+[0.300129] (-) TimerEvent: {}
+[0.400818] (-) TimerEvent: {}
+[0.409114] (camera) JobEnded: {'identifier': 'camera', 'rc': 0}
+[0.501004] (-) TimerEvent: {}
+[0.601651] (-) TimerEvent: {}
+[0.702367] (-) TimerEvent: {}
+[0.803045] (-) TimerEvent: {}
+[0.903938] (-) TimerEvent: {}
+[1.004576] (-) TimerEvent: {}
+[1.105214] (-) TimerEvent: {}
+[1.205877] (-) TimerEvent: {}
+[1.306590] (-) TimerEvent: {}
+[1.407500] (-) TimerEvent: {}
+[1.509178] (-) TimerEvent: {}
+[1.535320] (camera_drive) JobEnded: {'identifier': 'camera_drive', 'rc': 'SIGINT'}
+[1.536844] (wheels) JobEnded: {'identifier': 'wheels', 'rc': 'SIGINT'}
+[1.546581] (-) EventReactorShutdown: {}

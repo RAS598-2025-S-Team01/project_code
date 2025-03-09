@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/camera_drive/camera_drive.egg-info
+writing ../build/camera_drive/camera_drive.egg-info/PKG-INFO
+writing dependency_links to ../build/camera_drive/camera_drive.egg-info/dependency_links.txt
+writing entry points to ../build/camera_drive/camera_drive.egg-info/entry_points.txt
+writing requirements to ../build/camera_drive/camera_drive.egg-info/requires.txt
+writing top-level names to ../build/camera_drive/camera_drive.egg-info/top_level.txt
+writing manifest file '../build/camera_drive/camera_drive.egg-info/SOURCES.txt'
+reading manifest file '../build/camera_drive/camera_drive.egg-info/SOURCES.txt'
+writing manifest file '../build/camera_drive/camera_drive.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/ros2_ws/src/build/camera_drive/build
+creating /home/ubuntu/ros2_ws/src/build/camera_drive/build/lib
+creating /home/ubuntu/ros2_ws/src/build/camera_drive/build/lib/camera_drive
+copying camera_drive/__init__.py -> /home/ubuntu/ros2_ws/src/build/camera_drive/build/lib/camera_drive
+copying camera_drive/camera_drive.py -> /home/ubuntu/ros2_ws/src/build/camera_drive/build/lib/camera_drive
+running install
+running install_lib
+creating /home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages/camera_drive
+copying /home/ubuntu/ros2_ws/src/build/camera_drive/build/lib/camera_drive/__init__.py -> /home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages/camera_drive
+copying /home/ubuntu/ros2_ws/src/build/camera_drive/build/lib/camera_drive/camera_drive.py -> /home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages/camera_drive
+byte-compiling /home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages/camera_drive/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages/camera_drive/camera_drive.py to camera_drive.cpython-310.pyc
+running install_data
+creating /home/ubuntu/ros2_ws/src/install/camera_drive/share/ament_index
+creating /home/ubuntu/ros2_ws/src/install/camera_drive/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/src/install/camera_drive/share/ament_index/resource_index/packages
+copying resource/camera_drive -> /home/ubuntu/ros2_ws/src/install/camera_drive/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/src/install/camera_drive/share/camera_drive
+running install_egg_info
+Copying ../build/camera_drive/camera_drive.egg-info to /home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages/camera_drive-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_dive script to /home/ubuntu/ros2_ws/src/install/camera_drive/lib/camera_drive
+writing list of installed files to '/home/ubuntu/ros2_ws/src/build/camera_drive/install.log'

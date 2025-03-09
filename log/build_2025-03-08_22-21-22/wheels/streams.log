@@ -1,0 +1,21 @@
+[7.346s] Invoking command in '/home/ubuntu/ros2_ws/src/wheels': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/wheels/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/wheels build --build-base /home/ubuntu/ros2_ws/src/build/wheels/build install --record /home/ubuntu/ros2_ws/src/build/wheels/install.log --single-version-externally-managed install_data
+[8.761s] running egg_info
+[8.764s] writing ../build/wheels/wheels.egg-info/PKG-INFO
+[8.765s] writing dependency_links to ../build/wheels/wheels.egg-info/dependency_links.txt
+[8.767s] writing entry points to ../build/wheels/wheels.egg-info/entry_points.txt
+[8.768s] writing requirements to ../build/wheels/wheels.egg-info/requires.txt
+[8.769s] writing top-level names to ../build/wheels/wheels.egg-info/top_level.txt
+[8.779s] reading manifest file '../build/wheels/wheels.egg-info/SOURCES.txt'
+[8.783s] writing manifest file '../build/wheels/wheels.egg-info/SOURCES.txt'
+[8.784s] running build
+[8.785s] running build_py
+[8.787s] running install
+[8.789s] running install_lib
+[8.795s] running install_data
+[8.795s] running install_egg_info
+[8.804s] removing '/home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages/wheels-0.0.0-py3.10.egg-info' (and everything under it)
+[8.807s] Copying ../build/wheels/wheels.egg-info to /home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages/wheels-0.0.0-py3.10.egg-info
+[8.815s] running install_scripts
+[8.913s] Installing wheels script to /home/ubuntu/ros2_ws/src/install/wheels/lib/wheels
+[8.914s] writing list of installed files to '/home/ubuntu/ros2_ws/src/build/wheels/install.log'
+[9.052s] Invoked command in '/home/ubuntu/ros2_ws/src/wheels' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/wheels/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/wheels/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/wheels build --build-base /home/ubuntu/ros2_ws/src/build/wheels/build install --record /home/ubuntu/ros2_ws/src/build/wheels/install.log --single-version-externally-managed install_data

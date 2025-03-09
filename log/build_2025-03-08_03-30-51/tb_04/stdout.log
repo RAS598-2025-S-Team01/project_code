@@ -1,0 +1,18 @@
+running egg_info
+creating ../build/tb_04/tb_04.egg-info
+writing ../build/tb_04/tb_04.egg-info/PKG-INFO
+writing dependency_links to ../build/tb_04/tb_04.egg-info/dependency_links.txt
+writing entry points to ../build/tb_04/tb_04.egg-info/entry_points.txt
+writing requirements to ../build/tb_04/tb_04.egg-info/requires.txt
+writing top-level names to ../build/tb_04/tb_04.egg-info/top_level.txt
+writing manifest file '../build/tb_04/tb_04.egg-info/SOURCES.txt'
+reading manifest file '../build/tb_04/tb_04.egg-info/SOURCES.txt'
+writing manifest file '../build/tb_04/tb_04.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tb_04/camera_drive.py -> /home/ubuntu/ros2_ws/src/build/tb_04/build/lib/tb_04
+running install
+running install_lib
+copying /home/ubuntu/ros2_ws/src/build/tb_04/build/lib/tb_04/camera_drive.py -> /home/ubuntu/ros2_ws/src/install/tb_04/lib/python3.10/site-packages/tb_04
+byte-compiling /home/ubuntu/ros2_ws/src/install/tb_04/lib/python3.10/site-packages/tb_04/camera_drive.py to camera_drive.cpython-310.pyc
+running install_data

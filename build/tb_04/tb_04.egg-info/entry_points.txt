@@ -1,0 +1,5 @@
+[console_scripts]
+camera = tb_04.camera:main
+drive = tb_04.camera_drive:main
+wheels = tb_04.wheel_control:main
+

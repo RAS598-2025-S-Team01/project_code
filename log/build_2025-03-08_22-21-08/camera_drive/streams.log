@@ -1,0 +1,16 @@
+[7.459s] Invoking command in '/home/ubuntu/ros2_ws/src/camera_drive': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/camera_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/camera_drive build --build-base /home/ubuntu/ros2_ws/src/build/camera_drive/build install --record /home/ubuntu/ros2_ws/src/build/camera_drive/install.log --single-version-externally-managed install_data
+[9.500s] Traceback (most recent call last):
+[9.501s]   File "/home/ubuntu/ros2_ws/src/camera_drive/setup.py", line 1, in <module>
+[9.512s]     from setuptools import find_packages, setup
+[9.515s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 18, in <module>
+[9.517s]     from setuptools.dist import Distribution
+[9.519s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 39, in <module>
+[9.541s]     from setuptools.config import parse_configuration
+[9.543s]   File "/usr/lib/python3/dist-packages/setuptools/config.py", line 16, in <module>
+[9.556s]     from setuptools.extern.packaging.version import Version, InvalidVersion
+[9.559s]   File "/usr/lib/python3/dist-packages/setuptools/_vendor/packaging/version.py", line 37, in <module>
+[9.576s]     _Version = collections.namedtuple(
+[9.578s]   File "/usr/lib/python3.10/collections/__init__.py", line 417, in namedtuple
+[9.584s]     if defaults is not None:
+[9.586s] KeyboardInterrupt
+[9.788s] Invoked command in '/home/ubuntu/ros2_ws/src/camera_drive' returned '-2': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/camera_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/camera_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/camera_drive build --build-base /home/ubuntu/ros2_ws/src/build/camera_drive/build install --record /home/ubuntu/ros2_ws/src/build/camera_drive/install.log --single-version-externally-managed install_data
